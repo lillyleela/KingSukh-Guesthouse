@@ -1,0 +1,197 @@
+/* for desktop and larger tablets*/
+@media (min-width:992px) and (max-width:1200px) {
+    .about-head
+    {
+        margin-bottom:0px;
+    }
+    .holiday-start
+    {
+        font-size:36px;
+    }
+    .about-us-content
+    {
+        font-size:14px;
+        margin-bottom:0px;
+    }
+    .about-address
+    {
+        margin-top:5px;
+    }
+    .image-icons
+    {
+        top: 153px;
+    }
+    .service-text
+    {
+        width: 549px;
+    }
+    .message-card
+    {
+        width: 850px;
+        height:512px;
+    }
+    .contact-card
+    {
+        top: -3%;
+        height: 515px;
+        border-radius: none;
+        padding-bottom:40px;
+    }
+    .social-icons
+    {
+        margin-top: 86px;
+    }
+    .footer-div
+    {
+        padding: 100px 33px;
+    }
+}
+/*for mobiles*/
+@media (max-width: 768px) {
+    .booknow0 {
+        display: none;
+    }
+    .navbar,.navbar-dark
+    {
+        background-color: #e82574;
+        color: #ffffff !important;
+        opacity: 3 !important;
+        filter: brightness(141%);
+        /* position:fixed;
+        z-index: 9999; */
+    }
+    /* .navbar
+    {
+        position:fixed;
+        z-index:999;
+    } */
+    .hero-content p
+    {
+        color: #ffffff;
+        opacity: 0.9;
+        font-size:20px;
+    }
+    .about-container
+    {
+        padding:0px;
+    }
+    .service-text
+    {
+        left: 205px;
+        width: 384px;
+    }
+    .services-list li {
+        font-size: 23px;
+    }
+    .booking-count
+    {
+        font-weight:900;
+    }
+    .masonry {
+        column-count: 2;
+        column-gap: 0;
+    }
+
+    .masonry img {
+        width: 100%;
+        margin-bottom: 0;
+        display: block;
+        break-inside: avoid;
+        transition: 0.4s;
+    }
+    .contact-card
+    {
+        left:-1%;
+        width:360px;
+        border-radius:0px;
+        padding:0px;
+    }
+    .message-card
+    {
+        border-radius:none;
+        box-shadow:none;
+        width:360px;
+        /* left:-2%; */
+        left:5%;
+    }
+    .contact-div
+    {
+        background-color: #e82574;
+    }
+    .footer-div
+    {
+        height:auto;
+        padding:50px 25px;
+    }
+    .navbar-brand
+    {
+        margin-left:0px;
+
+    }
+}
+@media (min-width:769px) and (max-width:991px)
+{
+    .booknow0 {
+        display: none;
+    }
+    .service-text {
+        left: 63%;
+        width: 544px;
+    }
+    .contact-card
+    {
+        left:-1%;
+        width:753px;
+        border-radius:0px;
+        padding:0px;
+    }
+    .message-card
+    {
+        border-radius:none;
+        box-shadow:none;
+        width:750px;
+        /* left:-2%; */
+        left:5%;
+    }
+    .contact-div
+    {
+        background-color: #e82574;
+    }
+    .footer-div
+    {
+        height:auto;
+        padding:50px 25px;
+    }
+    .copy-text
+    {
+        font-size:16px;
+    }
+    .footer-social-icons
+    {
+        margin-right:30px;
+    }
+
+}
+@media (width:768px)
+{
+    .message-card
+    {
+        width:680px;
+    }
+    .contact-card
+    {
+        width:680px;
+    }
+    .footer-social-icons
+    {
+        margin-right:30px;
+    }
+    .copy-text
+    {
+        font-size:16px;
+    }
+    .service-text {
+        left: 479px;
+        width: 502px;
+    }
+}
